@@ -12,9 +12,9 @@
         <nav class=" mx-auto flex justify-between bg-black/[.4] max-w-7xl px-12 text-2xl py-4 decoration-transparent mt-8 sticky top-0 z-50 mb-16 bg-dots">
             <span>Marco Sommaruga</span>
             <ul class="space-x-8 hidden md:flex">
-                <li><a href="#">Works</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <button class="block md:hidden">X</button>
         </nav>
@@ -26,11 +26,13 @@
             <div class="container mx-auto flex flex-col justify-center items-center h-screen">
                 <h1 class="text-6xl font-bold text-center">Marco Sommaruga</h1>
                 <p class="text-2xl text-center">Frontend Developer</p>
-                <button class="bg-black text-white px-8 py-4 rounded-full mt-8">Contact me</button>
+                <button class="bg-black text-white px-8 py-4 rounded-full mt-8">
+                    <a href="#contact">Contact me</a> 
+                </button>
             </div>
         </section>
         <!-- works -->
-        <section class="works">
+        <section id="works">
             <div class="container mx-auto flex flex-col justify-center items-center h-screen">
                 <h2 class="text-4xl font-bold text-center">Works</h2>
                 <p class="text-2xl text-center">Some of my works</p>
@@ -87,7 +89,7 @@
             </div>
         </section>
         <!-- about -->
-        <section class="about">
+        <section id="about">
             <div class="container mx-auto flex flex-col justify-center items-center h-screen">
                 <h2 class="text-4xl font-bold text-center">About</h2>
                 <p class="text-2xl text-center">Something about me</p>
@@ -110,6 +112,32 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="container mx-auto flex flex-col justify-center items-center h-screen">
+                <h2 class="text-4xl font-bold text-center">Contact</h2>
+                <p class="text-2xl text-center">Contact me</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+                    <div class="bg-white rounded-xl shadow-xl">
+                        <img src="./img/contact/1.jpg" alt="contact 1" class="rounded-t-xl">
+                        <div class="p-8">
+                            <h3 class="text-2xl font-bold">Contact 1</h3>
+                            <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                            <button class="bg-black text-white px-8 py-4 rounded-full mt-8">View</button>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-xl">
+                        <img src="./img/contact/2.jpg" alt="contact 2" class="rounded-t-xl">
+                        <div class="p-8">
+                            <h3 class="text-2xl font-bold">Contact 2</h3>
+                            <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                            <button class="bg-black text-white px-8 py-4 rounded-full mt-8">View</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
