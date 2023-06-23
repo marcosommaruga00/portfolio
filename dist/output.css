@@ -729,8 +729,9 @@ video {
   font-weight: 700;
 }
 
-.font-extrabold {
-  font-weight: 800;
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -759,8 +760,8 @@ video {
   background-size: 32px 32px;
 }
 
-.color-font{
-  color: #fff;
+.color{
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -770,6 +771,10 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .md\:grid-cols-2 {

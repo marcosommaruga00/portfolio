@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marco Sommaruga</title>
     <link rel="stylesheet" href="./dist/output.css">
+    
 </head>
-<body class="bg-dots antialiased color-font font-Montserrat">
+<body class="bg-dots antialiased color font-Montserrat">
     <!-- responsive nav -->
-    <div class="fixed h-12 bg-dots w-screen top-0 z-40">
-        <nav class=" mx-auto flex justify-between bg-black/[.4] max-w-7xl px-12 text-2xl py-4 decoration-transparent mt-8 sticky top-0 z-50 mb-16 bg-dots">
-            <span>Marco Sommaruga</span>
-            <ul class="space-x-8 hidden md:flex">
-                <li><a href="#works">Works</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="block md:hidden">X</button>
-        </nav>
-    </div>
+    <section class="top">
+        <div class="fixed h-12 bg-dots w-screen top-0 z-40">
+            <nav class=" mx-auto flex justify-between bg-black/[.4] max-w-7xl px-12 text-2xl py-4 decoration-transparent mt-8 sticky top-0 z-50 mb-16 bg-dots">
+                <span>
+                    <a href="#top">Marco Sommaruga</a>
+                </span>
+                <ul class="space-x-8 hidden md:flex">
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="block md:hidden">X</button>
+            </nav>
+        </div>
+    </section>
     <!-- main -->
     <main>
         <!-- hero -->
@@ -38,50 +43,27 @@
                 <p class="text-2xl text-center">Some of my works</p>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
                     <div class="bg-white rounded-xl shadow-xl">
-                        <img src="./img/works/1.jpg" alt="work 1" class="rounded-t-xl">
+                        <img src="./assets/img/works/1.jpg" alt="work 1" class="rounded-t-xl">
                         <div class="p-8">
-                            <h3 class="text-2xl font-bold">Work 1</h3>
-                            <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                            <button class="bg-black text-white px-8 py-4 rounded-full mt-8">View</button>
+                            <h3 class="text-2xl font-bold text-black">Nexhool</h3>
+                            <button class="bg-black text-white px-8 py-4 rounded-full mt-8">
+                                <a href="https://nexhool.metaproject.xyz/">View</a>
+                            </button>
                         </div>
                     </div>
                     <div class="bg-white rounded-xl shadow-xl">
-                        <img src="./img/works/2.jpg" alt="work 2" class="rounded-t-xl">
+                        <img src="./assets/img/works/2.jpg" alt="work 2" class="rounded-t-xl">
                         <div class="p-8">
-                            <h3 class="text-2xl font-bold">Work 2</h3>
-                            <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                            <button class="bg-black text-white px-8 py-4 rounded-full mt-8">View</button>
+                            <h3 class="text-2xl font-bold text-black">Metaproject.xyz</h3>
+                            <button class="bg-black text-white px-8 py-4 rounded-full mt-8">
+                                <a href="https://metaproject.xyz/">View</a>
+                            </button>
                         </div>
                     </div>
                     <div class="bg-white rounded-xl shadow-xl">
-                        <img src="./img/works/3.jpg" alt="work 3" class="rounded-t-xl">
+                        <img src="./assets/img/works/3.jpg" alt="work 3" class="rounded-t-xl">
                         <div class="p-8">
-                            <h3 class="text-2xl font-bold">Work 3</h3>
-                            <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                            <button class="bg-black text-white px-8 py-4 rounded-full mt-8">View</button>
-                        </div>
-                    </div>
-                    <div class="bg-white rounded-xl shadow-xl">
-                        <img src="./img/works/4.jpg" alt="work 4" class="rounded-t-xl">
-                        <div class="p-8">
-                            <h3 class="text-2xl font-bold">Work 4</h3>
-                            <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                            <button class="bg-black text-white px-8 py-4 rounded-full mt-8">View</button>
-                        </div>
-                    </div>
-                    <div class="bg-white rounded-xl shadow-xl">
-                        <img src="./img/works/5.jpg" alt="work 5" class="rounded-t-xl">
-                        <div class="p-8">
-                            <h3 class="text-2xl font-bold">Work 5</h3>
-                            <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                            <button class="bg-black text-white px-8 py-4 rounded-full mt-8">View</button>
-                        </div>
-                    </div>
-                    <div class="bg-white rounded-xl shadow-xl">
-                        <img src="./img/works/6.jpg" alt="work 6" class="rounded-t-xl">
-                        <div class="p-8">
-                            <h3 class="text-2xl font-bold">Work 6</h3>
-                            <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                            <h3 class="text-2xl font-bold text-black">JobTag</h3>
                             <button class="bg-black text-white px-8 py-4 rounded-full mt-8">View</button>
                         </div>
                     </div>
@@ -93,20 +75,12 @@
             <div class="container mx-auto flex flex-col justify-center items-center h-screen">
                 <h2 class="text-4xl font-bold text-center">About</h2>
                 <p class="text-2xl text-center">Something about me</p>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+                <div class="grid grid-cols-1 md:grid-cols-1 gap-8 mt-8">
                     <div class="bg-white rounded-xl shadow-xl">
                         <img src="./img/about/1.jpg" alt="about 1" class="rounded-t-xl">
                         <div class="p-8">
-                            <h3 class="text-2xl font-bold">About 1</h3>
-                            <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                            <button class="bg-black text-white px-8 py-4 rounded-full mt-8">View</button>
-                        </div>
-                    </div>
-                    <div class="bg-white rounded-xl shadow-xl">
-                        <img src="./img/about/2.jpg" alt="about 2" class="rounded-t-xl">
-                        <div class="p-8">
-                            <h3 class="text-2xl font-bold">About 2</h3>
-                            <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                            <h3 class="text-2xl font-bold text-black">About 1</h3>
+                            <p class="text-xl text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
                             <button class="bg-black text-white px-8 py-4 rounded-full mt-8">View</button>
                         </div>
                     </div>
@@ -118,23 +92,23 @@
             <div class="container mx-auto flex flex-col justify-center items-center h-screen">
                 <h2 class="text-4xl font-bold text-center">Contact</h2>
                 <p class="text-2xl text-center">Contact me</p>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+                <div class="grid grid-cols-1 md:grid-cols-1 gap-8 mt-8">
                     <div class="bg-white rounded-xl shadow-xl">
                         <img src="./img/contact/1.jpg" alt="contact 1" class="rounded-t-xl">
                         <div class="p-8">
-                            <h3 class="text-2xl font-bold">Contact 1</h3>
-                            <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                            <h3 class="text-2xl font-bold text-black">Contact 1</h3>
+                            <p class="text-xl text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
                             <button class="bg-black text-white px-8 py-4 rounded-full mt-8">View</button>
                         </div>
                     </div>
-                    <div class="bg-white rounded-xl shadow-xl">
+                    <!-- <div class="bg-white rounded-xl shadow-xl">
                         <img src="./img/contact/2.jpg" alt="contact 2" class="rounded-t-xl">
                         <div class="p-8">
-                            <h3 class="text-2xl font-bold">Contact 2</h3>
-                            <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                            <h3 class="text-2xl font-bold text-black">Contact 2</h3>
+                            <p class="text-xl text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
                             <button class="bg-black text-white px-8 py-4 rounded-full mt-8">View</button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
