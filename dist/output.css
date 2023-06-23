@@ -590,6 +590,10 @@ video {
   margin-bottom: 4rem;
 }
 
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
 .mt-32 {
   margin-top: 8rem;
 }
