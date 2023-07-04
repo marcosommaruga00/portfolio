@@ -576,6 +576,10 @@ video {
   z-index: 50;
 }
 
+.m-8 {
+  margin: 2rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -803,16 +807,8 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:col-start-auto {
-    grid-column-start: auto;
-  }
-
   .md\:flex {
     display: flex;
-  }
-
-  .md\:grid {
-    display: grid;
   }
 
   .md\:h-screen {
@@ -825,14 +821,6 @@ video {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .md\:justify-between {
-    justify-content: space-between;
   }
 
   .md\:text-6xl {
