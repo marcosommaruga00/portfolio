@@ -8,15 +8,15 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>"/>
     
 </head>
-<body class="bg-dots antialiased color font-Montserrat">
+<body class="antialiased bg-dots color font-Montserrat">
     <!-- responsive nav -->
-    <section class="top hidden md:flex">
-        <div class="fixed h-12 bg-dots w-screen top-0 z-40">
+    <section class="hidden top md:flex">
+        <div class="fixed top-0 z-40 w-screen h-12 bg-dots">
             <nav class=" mx-auto flex justify-between bg-black/[.4] max-w-7xl px-12 text-2xl py-4 decoration-transparent mt-8 sticky top-0 z-50 mb-16 bg-dots">
                 <span>
                     <a href="#top">Marco Sommaruga</a>
                 </span>
-                <ul class="space-x-8 hidden md:flex">
+                <ul class="hidden space-x-8 md:flex">
                     <li><a href="#works">Works</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -25,46 +25,46 @@
         </div>
     </section>
     <!-- main -->
-    <main class="flex flex-col space-y-16 mt-32 mb-32 px-4">
+    <main class="flex flex-col px-4 mt-32 mb-32 space-y-16">
         <!-- hero -->
         <section class="hero">
-            <div class="container mx-auto flex flex-col justify-center items-center md:h-screen my-5 ">
-                <h1 class="text-5xl md:text-6xl font-bold text-center">Marco Sommaruga</h1>
+            <div class="container flex flex-col items-center justify-center mx-auto my-5 md:h-screen ">
+                <h1 class="text-5xl font-bold text-center md:text-6xl">Marco Sommaruga</h1>
                 <p class="text-2xl text-center">Frontend Developer</p>
-                <button class="bg-black text-white px-8 py-4 rounded-full mt-8">
+                <button class="px-8 py-4 mt-8 text-white bg-black rounded-full">
                     <a href="#contact">Contact me</a> 
                 </button>
             </div>
         </section>
         <!-- works -->
         <section id="works">
-            <div class="container mx-auto flex flex-col justify-center items-center md:h-screen my-5">
+            <div class="container flex flex-col items-center justify-center mx-auto my-5 md:h-screen">
                 <h2 class="text-4xl font-bold text-center">Works</h2>
                 <p class="text-2xl text-center">Some of my works</p>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-                    <div class="bg-white rounded-xl shadow-xl">
+                <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
+                    <div class="bg-white shadow-xl rounded-xl">
                         <img src="./assets/img/works/1.jpg" alt="work 1" class="rounded-t-xl">
                         <div class="p-8">
                             <h3 class="text-2xl font-bold text-black">Nexhool</h3>
-                            <button class="bg-black text-white px-8 py-4 rounded-full mt-8">
+                            <button class="px-8 py-4 mt-8 text-white bg-black rounded-full">
                                 <a href="https://nexhool.metaproject.xyz/">View</a>
                             </button>
                         </div>
                     </div>
-                    <div class="bg-white rounded-xl shadow-xl">
+                    <div class="bg-white shadow-xl rounded-xl">
                         <img src="./assets/img/works/2.jpg" alt="work 2" class="rounded-t-xl">
                         <div class="p-8">
                             <h3 class="text-2xl font-bold text-black">Metaproject.xyz</h3>
-                            <button class="bg-black text-white px-8 py-4 rounded-full mt-8">
+                            <button class="px-8 py-4 mt-8 text-white bg-black rounded-full">
                                 <a href="https://metaproject.xyz/">View</a>
                             </button>
                         </div>
                     </div>
-                    <div class="bg-white rounded-xl shadow-xl">
+                    <div class="bg-white shadow-xl rounded-xl">
                         <img src="./assets/img/works/3.jpg" alt="work 3" class="rounded-t-xl">
                         <div class="p-8">
                             <h3 class="text-2xl font-bold text-black">JobTag</h3>
-                            <button class="bg-black text-white px-8 py-4 rounded-full mt-8">View</button>
+                            <button class="px-8 py-4 mt-8 text-white bg-black rounded-full">View</button>
                         </div>
                     </div>
                 </div>
@@ -72,16 +72,16 @@
         </section>
         <!-- about -->
         <section id="about">
-            <div class="container mx-auto flex flex-col justify-center items-center md:h-screen my-5">
+            <div class="container flex flex-col items-center justify-center mx-auto my-5 md:h-screen">
                 <h2 class="text-4xl font-bold text-center">About</h2>
                 <p class="text-2xl text-center">Something about me</p>
-                <div class="grid grid-cols-1 md:grid-cols-1 gap-8 mt-8">
-                    <div class="bg-white rounded-xl shadow-xl">
+                <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-1">
+                    <div class="bg-white shadow-xl rounded-xl">
                         <img src="./img/about/1.jpg" alt="about 1" class="rounded-t-xl">
                         <div class="p-8">
                             <h3 class="text-2xl font-bold text-black">About 1</h3>
                             <p class="text-xl text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                            <button class="bg-black text-white px-8 py-4 rounded-full mt-8">View</button>
+                            <button class="px-8 py-4 mt-8 text-white bg-black rounded-full">View</button>
                         </div>
                     </div>
                 </div>
@@ -89,28 +89,28 @@
         </section>
         <!-- contact -->
         <section id="contact">
-            <div class="container mx-auto flex flex-col justify-center items-center md:h-screen my-5">
+            <div class="container flex flex-col items-center justify-center mx-auto my-5 md:h-screen">
                 <h2 class="text-4xl font-bold text-center">Contact</h2>
                 <p class="text-2xl text-center">Contact me</p>
-                <div class="grid grid-cols-1 md:grid-cols-1 gap-8 mt-8">
+                <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-1">
                     <!-- contact form with email name and descritpion -->
-                    <form action="" class="bg-white rounded-xl shadow-xl" method="POST" data-netlify="true">
+                    <form class="bg-white shadow-xl rounded-xl" name="contact" method="POST" netlify>
                         <div class="p-8">
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+                            <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2">
                                 <div class="flex flex-col">
                                     <label for="name" class="text-xl text-black">Name</label>
-                                    <input type="text" name="name" id="name" class="border-2 border-black rounded-xl p-4 text-black">
+                                    <input type="text" name="name" id="name" class="p-4 text-black border-2 border-black rounded-xl">
                                 </div>
                                 <div class="flex flex-col">
                                     <label for="email" class="text-xl text-black">Email</label>
-                                    <input type="email" name="email" id="email" class="border-2 border-black rounded-xl p-4 text-black">
+                                    <input type="email" name="email" id="email" class="p-4 text-black border-2 border-black rounded-xl">
                                 </div>
                             </div>
                             <div class="flex flex-col mt-8">
                                 <label for="description" class="text-xl text-black">Description</label>
-                                <textarea name="description" id="description" cols="30" rows="10" class="border-2 border-black rounded-xl p-4 text-black"></textarea>
+                                <textarea name="description" id="description" cols="30" rows="10" class="p-4 text-black border-2 border-black rounded-xl"></textarea>
                             </div>
-                            <button class="bg-black text-white px-8 py-4 rounded-full mt-8">Send</button>
+                            <button class="px-8 py-4 mt-8 text-white bg-black rounded-full">Send</button>
                         </div>
                 </div>
             </div>
