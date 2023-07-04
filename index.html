@@ -93,14 +93,25 @@
                 <h2 class="text-4xl font-bold text-center">Contact</h2>
                 <p class="text-2xl text-center">Contact me</p>
                 <div class="grid grid-cols-1 md:grid-cols-1 gap-8 mt-8">
-                    <div class="bg-white rounded-xl shadow-xl">
-                        <img src="./img/contact/1.jpg" alt="contact 1" class="rounded-t-xl">
+                    <!-- contact form with email name and descritpion -->
+                    <form action="" class="bg-white rounded-xl shadow-xl" method="post" data-netlifly="true">
                         <div class="p-8">
-                            <h3 class="text-2xl font-bold text-black">Contact 1</h3>
-                            <p class="text-xl text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                            <button class="bg-black text-white px-8 py-4 rounded-full mt-8">View</button>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+                                <div class="flex flex-col">
+                                    <label for="name" class="text-xl text-black">Name</label>
+                                    <input type="text" name="name" id="name" class="border-2 border-black rounded-xl p-4">
+                                </div>
+                                <div class="flex flex-col">
+                                    <label for="email" class="text-xl text-black">Email</label>
+                                    <input type="email" name="email" id="email" class="border-2 border-black rounded-xl p-4">
+                                </div>
+                            </div>
+                            <div class="flex flex-col mt-8">
+                                <label for="description" class="text-xl text-black">Description</label>
+                                <textarea name="description" id="description" cols="30" rows="10" class="border-2 border-black rounded-xl p-4"></textarea>
+                            </div>
+                            <button class="bg-black text-white px-8 py-4 rounded-full mt-8">Send</button>
                         </div>
-                    </div>
                 </div>
             </div>
         </section>
