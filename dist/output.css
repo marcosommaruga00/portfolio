@@ -622,20 +622,16 @@ video {
   height: 3rem;
 }
 
-.w-screen {
-  width: 100vw;
-}
-
 .w-full {
   width: 100%;
 }
 
-.max-w-7xl {
-  max-width: 80rem;
+.w-screen {
+  width: 100vw;
 }
 
-.max-w-full {
-  max-width: 100%;
+.max-w-7xl {
+  max-width: 80rem;
 }
 
 .grid-cols-1 {
