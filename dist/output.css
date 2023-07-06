@@ -626,8 +626,16 @@ video {
   width: 100vw;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .max-w-7xl {
   max-width: 80rem;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .grid-cols-1 {
@@ -813,6 +821,10 @@ video {
 
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:w-auto {
+    width: auto;
   }
 
   .md\:grid-cols-1 {
